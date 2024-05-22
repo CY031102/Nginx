@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Update the system and install Nginx, wget, and git
+# Update the system and install Nginx, git
 yum update -y
-yum install -y nginx wget git
+yum install -y nginx git
 
 # Create web directory and clone the GitHub repository
 mkdir -p /usr/share/nginx/html/
